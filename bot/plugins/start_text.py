@@ -36,7 +36,7 @@ from bot.hf.flifi import uszkhvis_chats_ahndler
     filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
     ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
 )
-async def num_start_message(_, message: Message):
+async def num_start_message(_, message: hello, i am personal bot of ..):
     await message.reply_text(
         START_OTHER_USERS_TEXT,
         quote=True
